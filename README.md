@@ -57,7 +57,3 @@ uv sync
 python -m figma_mcp.main
 ```
 
-
-# figma-mcp-python
-# figma-mcp-python
-# figma-mcp-python
