@@ -1,0 +1,31 @@
+.env
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.so
+
+# Virtual Environments
+venv/
+env/
+.venv/
+
+# IDEs
+.vscode/
+.idea/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Test directories
+tests/__pycache__/
+
+# Distribution / packaging
+*.egg
+*.egg-info/
+dist/
+build/
+*.log
+.cursor/
+.DS_Store
