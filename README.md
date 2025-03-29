@@ -1,25 +1,10 @@
 # Figma MCP Python
 
 ### For Cursor:
-1. OR Add a `.cursor/mcp.json` file in your project:
+1. add  mcp  in cursor 
 
-```json
-{
-	"mcpServers": {
-		"figma-python": {
-			"command": "uv",
-			"args": [
-				"--directory",
-				"/yourpath/figma-mcp-python",
-				"run",
-				"figma-mcp-python.py"
-			],
-			"env": {
-				"FIGMA_API_TOKEN": "figma-key"
-			}
-		}
-	}
-}
+```
+pipx run figma-mcp --figma-api-key=figma-apikey
 ```
 
 
